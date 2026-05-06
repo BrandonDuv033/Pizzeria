@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    font-family: Arial,sans-serif;
+    background-attachment: #F5E7C6;
+    
+}
+header{
+    background-color:#F5E7C6 ;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+header h1{
+    margin: 0;
+    font-size: 20px;
+}
+nav a{
+text-decoration: none;
+color:black;
+margin-left: 20px;
+font-weight: bold;
+}
+nav a:hover{
+    color: orange;
+}
+
+table{
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: white;
+
+}
+th, td{
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
