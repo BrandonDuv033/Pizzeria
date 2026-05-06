@@ -118,8 +118,8 @@ form {
 
 .imagen {
     position: absolute;
-    top: 180px;   /* ajusta hasta que quede a la altura de "Tipo de pizza" */
-    left: 250px;  /* mueve la imagen hacia la derecha */
+    top: 180px;  
+    left: 250px;  
 }
 
 .imagen img {
