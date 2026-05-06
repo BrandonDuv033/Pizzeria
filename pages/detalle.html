@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <header> 
+        <div class="banner">
+            <h1 class="Logo" href="index.html">Pizza Nostra</h1>
+        <nav>
+            <a href="pages/clientes.html">Clientes</a>
+            <a href="pages/productos.html">Productos</a>
+            <a href="pages/pedidos.html">Pedidos</a>
+            <a href="pages/empleados.html">Empleados</a>
+        </nav>
+        </div>
+    </header>
+    <section class="pedidos">
+    <h2>Realiza pedido</h2>
+
+    <form class="form-pedido">
+
+        <input type="text" placeholder="Nombre" required>
+        <input type="tel" placeholder="Teléfono" required>
+
+        <select required>
+            <option value="">Selecciona tu pizza</option>
+            <option>Hawaiana</option>
+            <option>Pepperoni</option>
+            <option>Vegetariana</option>
+        </select>
+
+        <input type="number" placeholder="Cantidad" min="1" required>
+
+        <textarea placeholder="Dirección de entrega" required></textarea>
+
+        <textarea placeholder="Detalles adicionales (sin cebolla, extra queso, etc.)"></textarea>
+
+        <button type="submit">Enviar pedido</button>
+
+    </form>
+</section>
+</body>
+</html>
