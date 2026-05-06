@@ -1,120 +1,62 @@
 
-
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #ffb792;
-    margin: 0;
+body{
+    background-color: #222222;
+    flex-direction: column;
+    height: 100vh;
 }
-header {
-   background-color:#bd0000 ;
-    display:flex;
-    justify-content: space-between;
+header{
+    height: 100px;
+    background-color: #F5E7C6;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    padding: 15px 30px;
+    height: 100px;
 }
 
-nav a:hover{
-
-    background-color: rgba(0, 0, 0, 0.37);
-  
-    color: rgba(255, 255, 255, 0.8);
-} 
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.empleados {
+.pedidos {
+    background: #fff5f0;
+    padding: 50px;
     text-align: center;
-    padding: 40px;
 }
 
-.empleados h2 {
+.pedidos h2 {
     color: #c0392b;
     margin-bottom: 30px;
 }
 
-.contenedor-empleados {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
+.form-pedido {
+    max-width: 400px;
+    margin: auto;
 }
 
-.card {
-    background: white;
-    border-radius: 10px;
-    width: 220px;
-    padding: 20px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    transition: transform 0.3s;
-}
-
-.card:hover {
-    transform: scale(1.05);
-}
-
-.card img {
+.form-pedido input,
+.form-pedido select,
+.form-pedido textarea {
     width: 100%;
-    border-radius: 50%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
 }
 
-.card h3 {
-    margin: 15px 0 5px;
+.form-pedido textarea {
+    resize: none;
+    height: 80px;
 }
 
-.card p {
-    color: #777;
-}
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    background: #c0392b;
-    padding: 15px 30px;
-    color: white;
-}
-
-.navbar ul {
-    display: flex;
-    list-style: none;
-    gap: 20px;
-}
-
-.navbar a {
-    color: white;
-    text-decoration: none;
-}
-.
-
-.btn {
+.form-pedido button {
+    width: 100%;
+    padding: 12px;
     background: #e74c3c;
-    padding: 10px 20px;
     color: white;
-    text-decoration: none;
-    border-radius: 5px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
 }
 
-.contacto {
-    text-align: center;
-    padding: 40px;
+.form-pedido button:hover {
+    background: #c0392b;
 }
 
-input, textarea {
-    display: block;
-    margin: 10px auto;
-    padding: 10px;
-    width: 250px;
-}
-.whatsapp {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: green;
-    color: white;
-    padding: 15px;
-    border-radius: 50%;
-    text-decoration: none;
-}
+
