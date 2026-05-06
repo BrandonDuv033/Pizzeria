@@ -20,23 +20,6 @@ header{
     align-items: center;
     height: 100px;
 }
-
-main {
-    flex: 1;
-}
-
-.banner{
-    display: flex;
-    justify-content: center;
-    gap: 300px;
-    align-items: center;
-}
-
-.Logo{
-    text-transform: uppercase;
-    font-size: 45px;
-}
-
 nav{
     display: flex;
     gap: 30px;
@@ -54,55 +37,6 @@ nav a:hover{
     text-decoration-thickness: 3px;
     text-underline-offset: 8px;
 }
-
-footer {
-    background-color: #FF6D1F;
-    flex-direction: column;
-    display: flex;
-    text-align: center;
-}
-
-a {
-    text-decoration: none;
-}
-
-footer .social {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 15px 0;
-}
-
-footer .social a {
-    color: black;
-    background-color: white;
-    padding: 5px;
-    border-radius: 50%;
-}
-
-footer .social a i {
-    font-size: 20px;
-    transition: all .3s ease;
-}
-
-footer .social a i:hover {
-    transform: translateY(-2px);
-}
-
-footer .nav-section-footer {
-    margin-bottom: 15px;
-}
-
-footer .nav-section-footer nav {
-    display: flex;
-    justify-content: center;
-    gap: 35px;
-}
-
-footer .nav-section-footer nav a{
-    color: white;
-}
-
 form label{
     color: rgb(248, 245, 245);
 }
