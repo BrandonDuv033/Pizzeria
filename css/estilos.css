@@ -28,7 +28,6 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
 }
 
 main {
@@ -40,6 +39,7 @@ main {
     justify-content: center;
     gap: 300px;
     align-items: center;
+    height: 70px;
 }
 
 .Logo{
@@ -119,43 +119,10 @@ footer .nav-section-footer nav a:hover{
     text-decoration-color: #222222;
     text-decoration-thickness: 3px;
     text-underline-offset: 8px;
-=======
-body{
-    margin: 0;
-    font-family: Arial,sans-serif;
-    background-attachment: #F5E7C6;
-    
 }
-header{
-    background-color:#F5E7C6 ;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 30px;
-}
-header h1{
-    margin: 0;
+
+footer .copy {
+    padding: 15px 0;
     font-size: 20px;
-}
-nav a{
-text-decoration: none;
-color:black;
-margin-left: 20px;
-font-weight: bold;
-}
-nav a:hover{
-    color: orange;
-}
-
-table{
-    width: 80%;
-    margin: auto;
-    border-collapse: collapse;
-    background-color: white;
-
-}
-th, td{
-    border: 1px solid #ddd;
-    padding: 10px;
-    text-align: center;
+    background-color: #f78040af;
 }
