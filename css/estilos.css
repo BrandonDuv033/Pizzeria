@@ -13,6 +13,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
+
 }
 
 body{
@@ -28,6 +29,16 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.formulario{
+    background:#FF6D1F;
+    padding:30px;
+    border-radius:10px;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    width:300px;
 }
 
 main {
@@ -125,4 +136,70 @@ footer .copy {
     padding: 15px 0;
     font-size: 20px;
     background-color: #f78040af;
+form label{
+    color: rgb(248, 245, 245);
+}
+form input{
+    background-color: rgb(255, 123, 0);
+}
+div{
+    display: flexbox;
+}
+form {
+    position: relative;
+}
+.imagen {
+    position: absolute;
+    top: 180px;  
+    left: 250px;  
+}
+
+.imagen img {
+    width: 300px;
+}
+
+.pedidos {
+    background: #fff5f0;
+    padding: 50px;
+    text-align: center;
+}
+
+.pedidos h2 {
+    color: #c0392b;
+    margin-bottom: 30px;
+}
+
+.form-pedido {
+    max-width: 400px;
+    margin: auto;
+}
+
+.form-pedido input,
+.form-pedido select,
+.form-pedido textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.form-pedido textarea {
+    resize: none;
+    height: 80px;
+}
+
+.form-pedido button {
+    width: 100%;
+    padding: 12px;
+    background: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-pedido button:hover {
+    background: #c0392b;
 }
