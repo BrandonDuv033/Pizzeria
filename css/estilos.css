@@ -218,14 +218,18 @@ form {
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    height: 250px;
+    height: 400px;
     width: 400px;
+    margin-bottom: 30px;
 }
 
 .clientes form input {
     font-size: 25px;
     background-color: #F5E7C6;
     color: black;
+    border-radius: 10px;
+    height: 25px;
+    width: 350px;
 }
 
 .clientes form select {
@@ -316,6 +320,7 @@ input, textarea {
     padding: 10px;
     width: 250px;
 }
+
 .whatsapp {
     position: fixed;
     bottom: 20px;
@@ -325,4 +330,23 @@ input, textarea {
     padding: 15px;
     border-radius: 50%;
     text-decoration: none;
+}
+
+.tabla-productos table{
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: white;
+    margin-bottom: 35px;
+}
+.tabla-productos th, td{
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.tabla-productos h2 {
+    text-align: center;
+    padding: 10px;
+    color: white;
 }
