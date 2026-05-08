@@ -212,6 +212,12 @@ form {
     color: #ccc;
 }
 
+.clientes input, textarea {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 250px;
+}
 
 .clientes form {
     font-size: 25px;
@@ -246,8 +252,10 @@ form {
 }
 
 .empleados h2 {
-    color: #c0392b;
-    margin-bottom: 30px;
+    text-align: center;
+    color: #ccc;
+    margin-bottom: 20px;
+    margin-top: -20px;
 }
 
 .contenedor-empleados {
@@ -314,7 +322,12 @@ form {
     padding: 40px;
 }
 
-input, textarea {
+.contacto h2 {
+    text-align: center;
+    color: #ccc;
+}
+
+.contacto input, textarea {
     display: block;
     margin: 10px auto;
     padding: 10px;
@@ -349,4 +362,62 @@ input, textarea {
     text-align: center;
     padding: 10px;
     color: white;
+}
+
+.imagen {
+    position: center;
+    top: 760px;  
+    left: 450px;  
+}
+
+.imagen img {
+    width: 370px;
+}
+
+.pedidos {
+    background: #fff5f0;
+    padding: 50px;
+    text-align: center;
+}
+
+.pedidos h2 {
+    color: #c0392b;
+    margin-bottom: 30px;
+}
+
+.form-pedido {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 35px;
+}
+
+.form-pedido input,
+.form-pedido select,
+.form-pedido textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.form-pedido textarea {
+    resize: none;
+    height: 80px;
+}
+
+.form-pedido button {
+    width: 100%;
+    padding: 12px;
+    background: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 400px
+}
+
+.form-pedido button:hover {
+    background: #c0392b;
 }
