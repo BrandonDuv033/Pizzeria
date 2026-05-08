@@ -1,52 +1,86 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/estilos.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/estilos.css" />
     <title>Pedidos</title>
-</head>
-<body>
+    <script src="https://kit.fontawesome.com/d6001db8ae.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
     <header> 
         <div class="banner">
-            <h1 class="Logo" href="index.html">Pizza Nostra</h1>
+            <h1 class="Logo">Pizza Nostra</h1>
         <nav>
-            <a href="pages/clientes.html">Clientes</a>
-            <a href="pages/productos.html">Productos</a>
-            <a href="pages/pedidos.html">Pedidos</a>
-            <a href="pages/empleados.html">Empleados</a>
+            <a href="clientes.html">Clientes</a>
+            <a href="productos.html">Productos</a>
+            <a href="pedidos.html">Pedidos</a>
+            <a href="empleados.html">Empleados</a>
+            <a href="detalle.html">Detalles</a>
         </nav>
         </div>
     </header>
 
-    <form>
-            <label>Nombre:</label><br>
-            <input type="text"><br><br>
+    <main>
+      <section class="form-pedido">
+        <form>
+          <label>Nombre:</label><br />
+          <input type="text" /><br /><br />
 
-            <label>Teléfono:</label><br>
-            <input type="text"><br><br>
-            <label>Dirección:</label><br>
-            <input type="text"><br><br>
+          <label>Teléfono:</label><br />
+          <input type="text" /><br /><br />
+          <label>Dirección:</label><br />
+          <input type="text" /><br /><br />
+          <label>Tipo de pizza:</label><br />
 
-            <label>Tipo de pizza:</label><br>
             <select>
-            <option>Margarita</option>
-            <option>Pepperoni</option>
-            <option>Hawaiana</option>
-            </select><br><br>
-         
+              <option>Margarita</option>
+              <option>Pepperoni</option>
+              <option>Hawaiana</option>
+            </select> <br /><br />
 
-            <label>Cantidad:</label><br>
-            <input type="number" value="1"><br><br>
+        <label>Cantidad:</label><br />
+        <input type="number" value="1" /><br /><br />
 
-            
-            <button>Enviar pedido</button>
-    </form>
-       <center>
-            <div class="imagen">
-                <img src="../img/pizzachampiñon.jpg" alt="">
-            </div>
-            </center>
-    
-</body>
+        <button>Enviar pedido</button>
+      </form>
+
+      <div class="imagen">
+        <img src="../img/PizzaChampiñon.png" alt="Pizza de Champiñon" />
+      </div>
+
+      </section>
+    </main>
+
+    <footer>
+        <div class="social">
+            <a href="#">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-tiktok"></i>
+            </a>
+        </div>
+
+        <div class="nav-section-footer">
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="#">Noticias</a>
+                <a href="#">Acerca de</a>
+                <a href="empleados.html">Contactanos</a>
+                <a href="empleados.html">Nuestro Equipo</a>
+            </nav>
+        </div>
+
+        <div class="copy">
+            Copyright 2026 - &#174;
+        </div>
+
+    </footer>
+
+  </body>
 </html>

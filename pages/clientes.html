@@ -1,59 +1,74 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/estilos.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/estilos.css" />
+    <script
+      src="https://kit.fontawesome.com/d6001db8ae.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Clientes</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-    <div class="banner">
-        <a href="../index.html" class="logo">Pizza Nostra</a>
-
+      <div class="banner">
+        <h1 class="Logo">Pizza Nostra</h1>
         <nav>
-           <header> 
-        <div class="banner">
-            <h1 class="Logo" href="index.html">Pizza Nostra</h1>
-        <nav>
-            <a href="pages/clientes.html">Clientes</a>
-            <a href="pages/productos.html">Productos</a>
-            <a href="pages/pedidos.html">Pedidos</a>
-            <a href="pages/empleados.html">Empleados</a>
+          <a href="clientes.html">Clientes</a>
+          <a href="productos.html">Productos</a>
+          <a href="pedidos.html">Pedidos</a>
+          <a href="empleados.html">Empleados</a>
+          <a href="detalle.html">Detalles</a>
         </nav>
-        </div>
+      </div>
     </header>
-        </nav>
-    </div>
-</header>
 
-<main>
+    <main>
+      <section class="clientes">
+        <h2>Datos del Cliente</h2>
 
-<section class="clientes">
+        <form class="formulario">
+          <input type="text" placeholder=" Nombre completo" />
+          <input type="number" placeholder=" Teléfono" />
+          <input type="text" placeholder=" Dirección de entrega" />
 
-    <h2>Datos del Cliente</h2>
-<center><form class="formulario">
-
-        <input type="text" placeholder="Nombre completo">
-        <input type="text" placeholder="Teléfono">
-        <input type="text" placeholder="Dirección de entrega">
-
-        <select>
+          <select>
             <option>Selecciona tu pizza</option>
             <option>Pepperoni</option>
             <option>Hawaiana</option>
             <option>BBQ</option>
-        </select>
+          </select>
 
-        <button type="submit">Hacer Pedido</button>
+          <button type="submit">Hacer Pedido</button>
+        </form>
+      </section>
+    </main>
 
-    </form></center>
-    
+    <footer>
+      <div class="social">
+        <a href="#">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href="#">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#">
+          <i class="fab fa-tiktok"></i>
+        </a>
+      </div>
 
-</section>
+      <div class="nav-section-footer">
+        <nav>
+          <a href="../index.html">Inicio</a>
+          <a href="#">Noticias</a>
+          <a href="#">Acerca de</a>
+          <a href="#">Contactanos</a>
+          <a href="#">Nuestro Equipo</a>
+        </nav>
+      </div>
 
-</main>
-
-
-</body>
+      <div class="copy">Copyright 2026 - &#174;</div>
+    </footer>
+  </body>
 </html>
